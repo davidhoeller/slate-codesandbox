@@ -1,0 +1,14 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "immutable": "4.0.0-rc.12",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "slate": "0.47.8",
+    "slate-react": "0.22.9"
+  }
+}
