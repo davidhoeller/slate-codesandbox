@@ -29,15 +29,16 @@ class MyEditor extends React.Component {
     };
   }
 
-  onChange({ value }) {
+  onChange = editor => {
+    const { value } = editor;
     this.setState({ value });
-  }
+  };
 
   render() {
     return (
       <Editor
         placeholder="Enter some text..."
-        onChange={change => this.onChange(change)}
+        onChange={this.onChange}
         value={this.state.value}
       />
     );
